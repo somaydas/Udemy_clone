@@ -1,0 +1,31 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Celebal Technologies",
+      "email": "celebaltechnologies@gmail.com",
+      "phone": "9175863321",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "somay",
+      "name": "Somay Das",
+      "password": "123456",
+      "email": "somaydas02@gmail.com",
+      "phone": "9748537451",
+      "role": "user"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "category": "aws",
+      "cname": "Aws Basics",
+      "description": "Basics of AWS",
+      "creator": "Somay Das",
+      "price": "7500",
+      "role": "false"
+    }
+  ]
+}

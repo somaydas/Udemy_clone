@@ -1,0 +1,118 @@
+.signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50 vh;
+}
+
+.signup-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 30px;
+    width: 400px;
+    /* Changed width to 400px */
+    background-color: #f7f7f7;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.link-style Link {
+    width: 100%;
+    padding: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    /* Remove the default outline when focused */
+}
+
+select:hover {
+    border-color: #007bff;
+}
+
+/* Style the options inside the select */
+option {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Optional: Style the selected option differently */
+option:checked {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.image-upload-container {
+    text-align: center;
+}
+
+.preview-container {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #aaa;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.upload-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#uploadInput {
+    display: none;
+}
