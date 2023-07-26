@@ -26,7 +26,7 @@ const Add_course = () => {
         idchange(id + 1);
 
         //console.log(regobj);
-        fetch("http://localhost:8000/courses", {
+        fetch("https://udemy-clone-ri0m.onrender.com/courses", {
             method: "POST",
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(regobj)

@@ -17,7 +17,7 @@ const Login = () => {
         if (validate()) {
             ///implentation
             // console.log('proceed');
-            fetch("http://localhost:8000/user/" + username).then((res) => {
+            fetch("https://udemy-clone-ri0m.onrender.com/user/" + username).then((res) => {
                 return res.json();
             }).then((resp) => {
                 //console.log(resp)

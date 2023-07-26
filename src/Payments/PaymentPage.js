@@ -13,7 +13,7 @@ const PaymentPage = () => {
     const handleFormSubmit = (e) => {
         e.preventDefault();
         // Here you can implement logic for payment processing and validation
-        console.log('Payment processing logic goes here!');
+        alert('Payment Portal integration');
     };
 
     return (

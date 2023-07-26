@@ -9,7 +9,7 @@ const Uploaded_courses = () => {
 
     function getData() {
         axios
-            .get("http://localhost:8000/courses")
+            .get("https://udemy-clone-ri0m.onrender.com/courses")
             .then((res) => {
                 setData(res.data);
             });

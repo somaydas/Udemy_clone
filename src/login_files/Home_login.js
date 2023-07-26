@@ -32,7 +32,7 @@ const Home_login = () => {
 
     function getData() {
         axios
-            .get("http://localhost:8000/user")
+            .get("https://udemy-clone-ri0m.onrender.com/user")
             .then((res) => {
                 setData(res.data);
             });

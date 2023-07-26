@@ -10,7 +10,7 @@ const Register = () => {
     const [password, passwordchange] = useState("");
     const [email, emailchange] = useState("");
     const [phone, phonechange] = useState("");
-    const [role, rolechange] = useState("user");
+    const role = "user";
 
 
     const navigate = useNavigate();
@@ -54,7 +54,7 @@ const Register = () => {
         let regobj = { id, name, password, email, phone, role };
         if (IsValidate()) {
             //console.log(regobj);
-            fetch("http://localhost:8000/user", {
+            fetch("https://udemy-clone-ri0m.onrender.com/user", {
                 method: "POST",
                 headers: { 'content-type': 'application/json' },
                 body: JSON.stringify(regobj)
